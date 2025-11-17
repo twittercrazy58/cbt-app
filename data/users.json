@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "userType": "parent",
+    "name": "Mrs. Adeola",
+    "username": "adeola",
+    "password": "password123",
+    "childrenIds": [
+      101
+    ]
+  },
+  {
+    "id": 101,
+    "userType": "child",
+    "name": "Tobi Adeola",
+    "username": "tobi",
+    "password": "1234",
+    "examType": "BECE",
+    "parentId": 1
+  },
+  {
+    "id": 103,
+    "parentId": 1,
+    "name": "Jude",
+    "username": "jdkings",
+    "password": "1234",
+    "examType": "WAEC",
+    "userType": "child"
+  }
+]
